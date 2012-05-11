@@ -50,12 +50,12 @@
     
     if([UIDevice currentDevice].proximityState)
     {
-        NSLog(@"First mode/ Hand on the sensor ");
+        //NSLog(@"First mode/ Hand on the sensor ");
         [self.delegate pushUpTouched];
     }
     else
     {
-        NSLog(@"Second mode/ Hand off the sensor");
+        //NSLog(@"Second mode/ Hand off the sensor");
         [self.delegate pushUpAway];
     }
     
