@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		760EDA2416096F7100A98F56 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 760EDA2316096F7100A98F56 /* Default-568h@2x.png */; };
 		76B68E801543A1C300408B88 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B68E7F1543A1C300408B88 /* UIKit.framework */; };
 		76B68E821543A1C300408B88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B68E811543A1C300408B88 /* Foundation.framework */; };
 		76B68E841543A1C300408B88 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B68E831543A1C300408B88 /* CoreGraphics.framework */; };
@@ -63,9 +64,11 @@
 		76B68F0A1544F9B700408B88 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B68F091544F9B700408B88 /* CoreAudio.framework */; };
 		76B68F0E1544F9EE00408B88 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B68F0D1544F9EE00408B88 /* AVFoundation.framework */; };
 		76B68F0F1544FA0500408B88 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B68F071544F9AA00408B88 /* AudioToolbox.framework */; };
+		76FC2AC017F28DCC005965AD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76FC2ABF17F28DCC005965AD /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		760EDA2316096F7100A98F56 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		76B68E7B1543A1C300408B88 /* PushUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PushUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76B68E7F1543A1C300408B88 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		76B68E811543A1C300408B88 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -131,6 +134,7 @@
 		76B68F091544F9B700408B88 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
 		76B68F0B1544F9C100408B88 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
 		76B68F0D1544F9EE00408B88 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		76FC2ABF17F28DCC005965AD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +157,7 @@
 		76B68E701543A1C300408B88 = {
 			isa = PBXGroup;
 			children = (
+				760EDA2316096F7100A98F56 /* Default-568h@2x.png */,
 				76B68F0D1544F9EE00408B88 /* AVFoundation.framework */,
 				76B68F0B1544F9C100408B88 /* AudioUnit.framework */,
 				76B68F091544F9B700408B88 /* CoreAudio.framework */,
@@ -195,6 +200,7 @@
 				76B68E911543A1C300408B88 /* ViewController.h */,
 				76B68E921543A1C300408B88 /* ViewController.m */,
 				76B68E941543A1C300408B88 /* ViewController.xib */,
+				76FC2ABF17F28DCC005965AD /* Images.xcassets */,
 				76B68E861543A1C300408B88 /* Supporting Files */,
 			);
 			path = PushUp;
@@ -304,6 +310,11 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0430;
+				TargetAttributes = {
+					76B68E7A1543A1C300408B88 = {
+						DevelopmentTeam = L6RR26WWDD;
+					};
+				};
 			};
 			buildConfigurationList = 76B68E751543A1C300408B88 /* Build configuration list for PBXProject "PushUp" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -352,6 +363,7 @@
 				76B68EE81544F5E100408B88 /* 1.wav in Resources */,
 				76B68EE91544F5E100408B88 /* 10.wav in Resources */,
 				76B68EEA1544F5E100408B88 /* 11.wav in Resources */,
+				76FC2AC017F28DCC005965AD /* Images.xcassets in Resources */,
 				76B68EEB1544F5E100408B88 /* 12.wav in Resources */,
 				76B68EEC1544F5E100408B88 /* 13.wav in Resources */,
 				76B68EED1544F5E100408B88 /* 14.wav in Resources */,
@@ -372,6 +384,7 @@
 				76B68EFC1544F5E100408B88 /* 7.wav in Resources */,
 				76B68EFD1544F5E100408B88 /* 8.wav in Resources */,
 				76B68EFE1544F5E100408B88 /* 9.wav in Resources */,
+				760EDA2416096F7100A98F56 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +473,9 @@
 		76B68E9A1543A1C300408B88 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PushUp/PushUp-Prefix.pch";
 				INFOPLIST_FILE = "PushUp/PushUp-Info.plist";
@@ -472,6 +488,9 @@
 		76B68E9B1543A1C300408B88 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PushUp/PushUp-Prefix.pch";
 				INFOPLIST_FILE = "PushUp/PushUp-Info.plist";
